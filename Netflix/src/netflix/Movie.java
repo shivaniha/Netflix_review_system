@@ -200,6 +200,7 @@ public class Movie // Main class
 			System.out.println("\n");
 			
 		for(int i=0;i<3;i++){
+		    System.out.println("\n********************************************************\n");
 		    System.out.println("Details of movie "+(i+1)+"\n");
 		    n[i].displayMovies(name[i]);
 		    System.out.print("Imdb Score: ");
@@ -252,7 +253,6 @@ public class Movie // Main class
 		r.start();
 		r.join();
 		
-		System.out.println("\n********************************************************");
 		String[] releasedmovies={"Tomorrow_War","Joker","Monster_Huntet"};
 		try {
 			for(int i=0;i<3;i++) {
