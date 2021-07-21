@@ -1,4 +1,4 @@
-# Netflix_Review_System
+# Netflix_review_system
 
 This project allows you to select your best netflix movies and rate them as per your opinion. 
 Many people just go by the imdb score but this project takes the viewers and critics opinion to judge the movie and rate them out of 10. This program sort the movies according to the average rating given by the viewer and crictic. Also we can get the info about the latest movies coming up next.
