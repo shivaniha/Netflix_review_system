@@ -7,35 +7,36 @@ Many people just go by the imdb score but this project takes the viewers and cri
 netflix package - movie.java
 p1 package - Subscription.java
 
-## ---Movie.java file---
+## Movie.java file
 Classes used
 Netflix class - super class
-*Takes the movie name,genre, release year,count also has displayMovies() method to display the details entered.
+_Takes the movie name,genre, release year,count also has displayMovies() method to display the details entered._
 
 prevBest- inherited class from Netflix
-*Displays prev months best movies by displayMovies () method.
+_Displays prev months best movies by displayMovies () method._
 
 reviews-Abstract class 
-*Has two methods
+_Has two methods_
 Abstract method- showImdbRating()
 Normal Method- falseComments()
 
 imdb- inherited from reviews
-*Takes the imdb rating and displays thats rating by showImdbRating() method.
+_Takes the imdb rating and displays thats rating by showImdbRating() method._
 
 info- interface
-*Has a method show().
+_Has a method show()._
 
 info1- implements info interface
-*Has the  body of method show()- Displays personal information.
+_Has the  body of method show()- Displays personal information._
 
 release - extends Thread class
-*Takes a list of new releasing movies and displays it one by one whenever the movie releases.
+_Takes a list of new releasing movies and displays it one by one whenever the movie releases._
 
 user class- Takes the name of new user.
 
 Sorting of the movies in descending order is done in the public static void main() and then displayed as per rank.
 
+## Subscription.java file
 Also a package p1 which has a Subscription class which is used in the netflix package- movie.java file to show the subscription price of netflix by calling its message() method.
 
 
